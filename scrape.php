@@ -13,6 +13,17 @@ function curl($url,$posts=""){
 
 include 'simple_html_dom.php';
 
+/*
+In this example we traverse the DOM of http://www.hltv.org/results/
+scraping information related to the outcomes of CS matches. Most of 
+the work is accomplished by the ->find() methond. This can search for 
+many things including specific div classes. Other helpful methods are 
+the child(),parent(), and sibling() methods that allow you to traverse
+reletave to your current position.
+*/
+
+//Start Example
+
 $html = new simple_html_dom();
 $html->load(curl("http://www.hltv.org/results/"));
 
