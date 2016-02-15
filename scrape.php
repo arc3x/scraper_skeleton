@@ -18,8 +18,8 @@ In this example we traverse the DOM of http://www.hltv.org/results/
 scraping information related to the outcomes of CS matches. Most of 
 the work is accomplished by the ->find() methond. This can search for 
 many things including specific div classes. Other helpful methods are 
-the child(),parent(), and sibling() methods that allow you to traverse
-reletave to your current position.
+the child(), parent(), and sibling() methods that allow you to traverse
+relative to your current position.
 */
 
 //Start Example
